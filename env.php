@@ -13,5 +13,5 @@ $template='templates/startup2/';
 $img='img/';
 
 //URI
-$setUri['base']='http://localhost:8080/kkt/';
+$setUri['base']='https://aldibagas.github.io/kkt/';
 $setUri['assets']='assets/';

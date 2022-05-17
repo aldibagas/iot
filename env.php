@@ -13,5 +13,5 @@ $template='templates/startup2/';
 $img='img/';
 
 //URI
-$setUri['base']='http://localhost:8080/iot/';
+$setUri['base']='https://iotofficial.000webhostapp.com/';
 $setUri['assets']='_assets/';

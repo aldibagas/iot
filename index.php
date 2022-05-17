@@ -1,6 +1,6 @@
-<?php 
+<?php
  include '_loader.php';
- $Template=true;
+ $Template=false;
  if(isset($_GET['halaman'])){
     $halaman=$_GET['halaman'];
   }
@@ -25,11 +25,6 @@
 <html lang="en">
     <?php include '_layouts/head.php'?>
     <body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner"></div>
-    </div>
-    <!-- Spinner End -->
         <?php
             include '_layouts/header.php';
             include '_layouts/navbar.php';
@@ -39,6 +34,7 @@
         ?>
     </body>
 </html>
+
 <?php } else {
   echo $content;
 }

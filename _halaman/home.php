@@ -240,7 +240,7 @@
                         <div class="service-icon">
                             <i class="fa fa-tools text-white"></i>
                         </div>
-                        <h4 class="mb-3">Mill Automation</h4>
+                        <h4 class="mb-3">Process Control System</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
                         <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
@@ -248,47 +248,11 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fa fa-fan text-white"></i>
-                        </div>
-                        <h4 class="mb-3">HGF Automation</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fa fa-box text-white"></i>
-                        </div>
-                        <h4 class="mb-3">Packaging Automation</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
                             <i class="fa fa-tools text-white"></i>
                         </div>
-                        <h4 class="mb-3">HVAC Automation</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
-                            <i class="bi bi-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
-                    <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
-                        <div class="service-icon">
-                            <i class="fa fa-search text-white"></i>
-                        </div>
-                        <h4 class="mb-3">Others</h4>
+                        <h4 class="mb-3">Building Management System</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
                         <a class="btn btn-lg btn-primary rounded" href="">
                             <i class="bi bi-arrow-right"></i>
@@ -574,11 +538,10 @@
             <div class="row justify-content-end">
                 <div class="col-lg-8 col-md-6">
                     <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
-                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Your Site Name</a>. All Rights Reserved. 
+                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">IOT</a>. All Rights Reserved. 
 						
 						<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-						Designed by <a class="text-white border-bottom" href="https://htmlcodex.com">HTML Codex</a></p>
-                        <br>Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a>
+						Designed by <a class="text-white border-bottom">AM</a></p>
                     </div>
                 </div>
             </div>

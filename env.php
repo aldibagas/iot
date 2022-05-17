@@ -13,5 +13,5 @@ $template='templates/startup2/';
 $img='img/';
 
 //URI
-$setUri['base']='https://aldibagas.github.io/kkt/';
-$setUri['assets']='assets/';
+$setUri['base']='http://localhost:8080/iot/';
+$setUri['assets']='_assets/';

@@ -1,5 +1,5 @@
 <?php
-  $Template == false;
+  $setTemplate=false;
 ?>
 
 <!DOCTYPE html>
@@ -7,13 +7,13 @@
 
 <head>
     <meta charset="utf-8">
-    <title>IOT - Informasi Otomasi Teknologi</title>
+    <title>KKT - KRESNA KARYA TEKNOLOGI</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
 
     <!-- Favicon -->
-    <link href="<?=templates()?>img/favicon.ico" rel="icon">
+    <link href="<?=assets()?>img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,19 +25,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link href="<?=templates()?>lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="<?=templates()?>lib/animate/animate.min.css" rel="stylesheet">
+    <link href="<?=assets()?>lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="<?=assets()?>lib/animate/animate.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="<?=templates()?>css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?=assets()?>css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <link href="<?=templates()?>css/style.css" rel="stylesheet">
+    <link href="<?=assets()?>css/style.css" rel="stylesheet">
 </head>
 
 <body>
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+    <div id="home" class="container-fluid bg-dark px-5 d-none d-lg-block">
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
@@ -64,24 +64,23 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="<?=url('home')?>" class="navbar-brand p-0">
-                <h1 class="m-0">IOT</h1>
+                <h1 class="m-0">KKT</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="<?=url('home')?>" class="nav-item nav-link active">Home</a>
-                    <a href="<?=url('about')?>" class="nav-item nav-link">About</a>
+                    <a href="#home" class="nav-item nav-link scroll-to-section">Home</a>
+                    <a href="#about" class="nav-item nav-link scroll-to-section">About</a>
                     <div class="nav-item dropdown">
-                    <a href="<?=url('services')?>" class="nav-item nav-link">Services</a>
+                    <a href="#services" class="nav-item nav-link scroll-to-section">Services</a>
                         <div class="dropdown-menu m-0">
-                            <a href="<?=url('services')?>" class="dropdown-item">Power Assist</a>
-                            <a href="<?=url('services')?>" class="dropdown-item">Power Assist</a>
-                            <a href="<?=url('services')?>" class="dropdown-item">Power Assist</a>
+                            <a href="<?=url('content1')?>" class="dropdown-item">Industrial Automation</a>
+                            <a href="<?=url('content2')?>" class="dropdown-item">Building Automation</a>
                         </div>
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="#contact" class="nav-item nav-link scroll-to-section">Contact</a>
                 </div>
             </div>
         </nav>
@@ -89,20 +88,20 @@
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="<?=templates()?>img/carousel-1.jpg" alt="Image">
+                    <img class="w-100" src="<?=assets()?>img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">PT. INFORMASI OTOMASI TEKNOLOGI</h5>
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">PT. KRESNA KARYA TEKNOLOGI</h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Automation System Integrator</h1>
                             <a href="<?=url('contact')?>" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Contact Us</a>
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="<?=templates()?>img/carousel-2.jpg" alt="Image">
+                    <img class="w-100" src="<?=assets()?>img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">PT. INFORMASI OTOMASI TEKNOLOGI</h5>
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">PT. KRESNA KARYA TEKNOLOGI</h5>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Automation System Integrator</h1>
                             <a href="<?=url('contact')?>" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Contact Us</a>
                         </div>
@@ -187,7 +186,7 @@
 
 
     <!-- About Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div id="about" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-7">
@@ -219,7 +218,7 @@
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="<?=templates()?>img/about.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="<?=assets()?>img/about.jpg" style="object-fit: cover;">
                     </div>
                 </div>
             </div>
@@ -228,11 +227,11 @@
     <!-- About End -->
 
     <!-- Service Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div id="services" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">Our Services</h5>
-                <h1 class="mb-0">Custom Automation Solutions for Your Industrial Problems</h1>
+                <h1 class="mb-0">Custom Automation Solutions for Your Problems</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -240,9 +239,9 @@
                         <div class="service-icon">
                             <i class="fa fa-tools text-white"></i>
                         </div>
-                        <h4 class="mb-3">Process Control System</h4>
+                        <h4 class="mb-3">Industrial Automation</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
+                        <a class="btn btn-lg btn-primary rounded" href="<?=url('content1')?>">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -252,9 +251,9 @@
                         <div class="service-icon">
                             <i class="fa fa-tools text-white"></i>
                         </div>
-                        <h4 class="mb-3">Building Management System</h4>
+                        <h4 class="mb-3">Building Automation</h4>
                         <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
-                        <a class="btn btn-lg btn-primary rounded" href="">
+                        <a class="btn btn-lg btn-primary rounded" href="<?=url('content2')?>">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -271,25 +270,73 @@
     </div>
     <!-- Service End -->
 
-    <!-- Quote Start -->
+    <!-- References Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-7">
-                    <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold text-primary text-uppercase">Request A Quote</h5>
-                        <h1 class="mb-0">Need A Free Quote? Please Feel Free to Contact Us</h1>
-                    </div>
-                    <div class="row gx-3">
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-4"><i class="fa fa-reply text-primary me-3"></i>Reply within 24 hours</h5>
-                        </div>
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-4"><i class="fa fa-phone-alt text-primary me-3"></i>24 hrs telephone support</h5>
+            <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Project References</h5>
+                <h1 class="mb-0">who has used our services</h1>
+            </div>
+            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">PTPN XI - PG Wonolangan</h4>
+                            <small class="text-uppercase">Mill Power Assist - 2022</small>
                         </div>
                     </div>
-                    <p class="mb-4">Eirmod sed tempor lorem ut dolores. Aliquyam sit sadipscing kasd ipsum. Dolor ea et dolore et at sea ea at dolor, justo ipsum duo rebum sea invidunt voluptua. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo invidunt lorem. Elitr ut dolores magna sit. Sea dolore sanctus sed et. Takimata takimata sanctus sed.</p>
-                    <div class="d-flex align-items-center mt-2 wow zoomIn" data-wow-delay="0.6s">
+                    <div class="pt-4 pb-5 px-5">
+                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">PTPN XI - PG Prajekan</h4>
+                            <small class="text-uppercase">Mill Power Assist - 2022</small>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-5 px-5">
+                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">PTPN XI - PG Prajekan</h4>
+                            <small class="text-uppercase">HGF Automation - 2022</small>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-5 px-5">
+                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">PG Kebon Agung</h4>
+                            <small class="text-uppercase">Mill Power Assist - 2022</small>
+                        </div>
+                    </div>
+                    <div class="pt-10 pb-5 px-5">
+                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <!-- Contact Start -->
+    <div id="contact" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+                <h5 class="fw-bold text-primary text-uppercase">Contact Us</h5>
+                <h1 class="mb-0">If You Have Any Query, Feel Free To Contact Us</h1>
+            </div>
+            <div class="row g-5 mb-5">
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
                         <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
@@ -299,165 +346,64 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5">
-                    <div class="bg-primary rounded h-100 d-flex align-items-center p-5 wow zoomIn" data-wow-delay="0.9s">
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-xl-12">
-                                    <input type="text" class="form-control bg-light border-0" placeholder="Your Name" style="height: 55px;">
-                                </div>
-                                <div class="col-12">
-                                    <input type="email" class="form-control bg-light border-0" placeholder="Your Email" style="height: 55px;">
-                                </div>
-                                <div class="col-12">
-                                    <select class="form-select bg-light border-0" style="height: 55px;">
-                                        <option selected>Select A Service</option>
-                                        <option value="1">Service 1</option>
-                                        <option value="2">Service 2</option>
-                                        <option value="3">Service 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-12">
-                                    <textarea class="form-control bg-light border-0" rows="3" placeholder="Message"></textarea>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-dark w-100 py-3" type="submit">Request A Quote</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Quote End -->
-
-
-    <!-- Testimonial Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Testimonial</h5>
-                <h1 class="mb-0">What Our Clients Say About Our  Services</h1>
-            </div>
-            <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
-                <div class="testimonial-item bg-light my-4">
-                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="img/testimonial-1.jpg" style="width: 60px; height: 60px;" >
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.4s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                            <i class="fa fa-envelope-open text-white"></i>
+                        </div>
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">Client Name</h4>
-                            <small class="text-uppercase">Profession</small>
+                            <h5 class="mb-2">Email to get free quote</h5>
+                            <h4 class="text-primary mb-0">info@example.com</h4>
                         </div>
                     </div>
-                    <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                    </div>
                 </div>
-                <div class="testimonial-item bg-light my-4">
-                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="img/testimonial-2.jpg" style="width: 60px; height: 60px;" >
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s">
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                            <i class="fa fa-map-marker-alt text-white"></i>
+                        </div>
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">Client Name</h4>
-                            <small class="text-uppercase">Profession</small>
+                            <h5 class="mb-2">Visit our office</h5>
+                            <h4 class="text-primary mb-0">Graha Pena 14th, SBY</h4>
                         </div>
                     </div>
-                    <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                    </div>
                 </div>
-                <div class="testimonial-item bg-light my-4">
-                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="img/testimonial-3.jpg" style="width: 60px; height: 60px;" >
-                        <div class="ps-4">
-                            <h4 class="text-primary mb-1">Client Name</h4>
-                            <small class="text-uppercase">Profession</small>
-                        </div>
-                    </div>
-                    <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                    </div>
-                </div>
-                <div class="testimonial-item bg-light my-4">
-                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
-                        <img class="img-fluid rounded" src="img/testimonial-4.jpg" style="width: 60px; height: 60px;" >
-                        <div class="ps-4">
-                            <h4 class="text-primary mb-1">Client Name</h4>
-                            <small class="text-uppercase">Profession</small>
-                        </div>
-                    </div>
-                    <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Testimonial End -->
-
-
-    <!-- Team Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Team Members</h5>
-                <h1 class="mb-0">Professional Stuffs Ready to Help Your Business</h1>
             </div>
             <div class="row g-5">
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="<?=templates()?>img/team-1.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.3s">
+                    <form>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Your Name" style="height: 55px;">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="email" class="form-control border-0 bg-light px-4" placeholder="Your Email" style="height: 55px;">
+                            </div>
+                            <div class="col-12">
+                                <input type="text" class="form-control border-0 bg-light px-4" placeholder="Subject" style="height: 55px;">
+                            </div>
+                            <div class="col-12">
+                                <textarea class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
                             </div>
                         </div>
-                        <div class="text-center py-4">
-                            <h4 class="text-primary">Full Name</h4>
-                            <p class="text-uppercase m-0">Designation</p>
-                        </div>
-                    </div>
+                    </form>
                 </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="<?=templates()?>img/team-2.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h4 class="text-primary">Full Name</h4>
-                            <p class="text-uppercase m-0">Designation</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-                    <div class="team-item bg-light rounded overflow-hidden">
-                        <div class="team-img position-relative overflow-hidden">
-                            <img class="img-fluid w-100" src="<?=templates()?>img/team-3.jpg" alt="">
-                            <div class="team-social">
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-instagram fw-normal"></i></a>
-                                <a class="btn btn-lg btn-primary btn-lg-square rounded" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center py-4">
-                            <h4 class="text-primary">Full Name</h4>
-                            <p class="text-uppercase m-0">Designation</p>
+                <div class="col-lg-6 wow slideInUp" data-wow-delay="0.6s">
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe src="https://maps.google.com/maps?q=graha%20pena&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" 
+                                id="gmap_canvas" frameborder="0" scrolling="no" style="width: 600px; height: 400px;"></iframe>
+                                <style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}</style>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Team End -->
+    <!-- Contact End -->
 
     <!-- Vendor Start -->
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -485,7 +431,7 @@
                 <div class="col-lg-4 col-md-6 footer-about">
                     <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
                         <a href="index.html" class="navbar-brand">
-                            <h1 class="m-0 text-white"><i class="fa fa-user-tie me-2"></i>IOT</h1>
+                            <h1 class="m-0 text-white"><i class="fa fa-user-tie me-2"></i>KKT</h1>
                         </a>
                         <p class="mt-3 mb-4">Lorem diam sit erat dolor elitr et, diam lorem justo amet clita stet eos sit. Elitr dolor duo lorem, elitr clita ipsum sea. Diam amet erat lorem stet eos. Diam amet et kasd eos duo.</p>
                     </div>
@@ -520,12 +466,10 @@
                                 <h3 class="text-light mb-0">Quick Links</h3>
                             </div>
                             <div class="link-animated d-flex flex-column justify-content-start">
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Meet The Team</a>
-                                <a class="text-light mb-2" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Latest Blog</a>
-                                <a class="text-light" href="#"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                                <a class="text-light mb-2" href="#home"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="#about"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
+                                <a class="text-light mb-2" href="#services"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
+                                <a class="text-light" href="#contact"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -533,14 +477,13 @@
             </div>
         </div>
     </div>
+    
     <div class="container-fluid text-white" style="background: #061429;">
         <div class="container text-center">
             <div class="row justify-content-end">
                 <div class="col-lg-8 col-md-6">
                     <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
-                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">IOT</a>. All Rights Reserved. 
-						
-						<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">KRESNA KARYA TEKNOLOGI</a>. All Rights Reserved.
 						Designed by <a class="text-white border-bottom">AM</a></p>
                     </div>
                 </div>
@@ -551,20 +494,20 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#home" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="<?=templates()?>lib/wow/wow.min.js"></script>
-    <script src="<?=templates()?>lib/easing/easing.min.js"></script>
-    <script src="<?=templates()?>lib/waypoints/waypoints.min.js"></script>
-    <script src="<?=templates()?>lib/counterup/counterup.min.js"></script>
-    <script src="<?=templates()?>lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="<?=assets()?>lib/wow/wow.min.js"></script>
+    <script src="<?=assets()?>lib/easing/easing.min.js"></script>
+    <script src="<?=assets()?>lib/waypoints/waypoints.min.js"></script>
+    <script src="<?=assets()?>lib/counterup/counterup.min.js"></script>
+    <script src="<?=assets()?>lib/owlcarousel/owl.carousel.min.js"></script>
 
     <!-- Template Javascript -->
-    <script src="<?=templates()?>js/main.js"></script>
+    <script src="<?=assets()?>js/main.js"></script>
 </body>
 
 </html>

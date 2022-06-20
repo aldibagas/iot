@@ -12,6 +12,15 @@ $template='templates/startup2/';
 //folder gambar
 $img='img/';
 
+//folder library
+$lib='lib/';
+
+//folder javascript
+$js='js/';
+
+//folder css
+$css='css/';
+
 //URI
-$setUri['base']='https://iotofficial.000webhostapp.com/';
+$setUri['base']='http://localhost:8080/iot/';
 $setUri['assets']='_assets/';

@@ -1,6 +1,6 @@
-<?php
+<?php 
  include '_loader.php';
- $Template=false;
+ $setTemplate=true;
  if(isset($_GET['halaman'])){
     $halaman=$_GET['halaman'];
   }
@@ -17,8 +17,8 @@
   }
   $content = ob_get_contents();
   ob_end_clean();
-
-  if($Template==true){
+  
+  if($setTemplate==true){
 ?>
 
 <!DOCTYPE html>
@@ -37,8 +37,5 @@
 
 <?php } else {
   echo $content;
-}
-if(isset($fileJS)){
-  include '_halaman/js/'.$fileJS.'.php';
 }
 ?>

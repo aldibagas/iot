@@ -17,6 +17,18 @@ function templates($a=''){
     return assets($GLOBALS['template'].$a);
 }
 
+function js($a=''){
+  return assets($GLOBALS['js'].$a);
+}
+
+function css($a=''){
+  return assets($GLOBALS['css'].$a);
+}
+
+function lib($a=''){
+  return assets($GLOBALS['lib'].$a);
+}
+
 function routes($a=''){
   return assets($GLOBALS['route'].$a);
 }

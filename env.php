@@ -6,8 +6,7 @@ $setDb['db_name']='';
 $setDb['db_user']='root';
 $setDb['db_password']='';
 
-//folder templates
-$template='templates/startup2/';
+
 
 //folder gambar
 $img='img/';
@@ -22,5 +21,5 @@ $js='js/';
 $css='css/';
 
 //URI
-$setUri['base']='http://localhost:8080/iot/';
+$setUri['base']='https://kresnateknologi.com/';
 $setUri['assets']='_assets/';

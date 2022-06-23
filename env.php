@@ -21,5 +21,5 @@ $js='js/';
 $css='css/';
 
 //URI
-$setUri['base']='https://kresnateknologi.com/';
+$setUri['base']='http://localhost:8080/iot/';
 $setUri['assets']='_assets/';

@@ -71,7 +71,7 @@
     </div>
     <!-- Blog End -->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script>
  $(document).ready(function(){
       load_data();
@@ -85,8 +85,9 @@
                 }
            })
       }
-      $(document).on('click', '.halaman', function(){
+      $(document).on('click', '.halaman', function(e){
            var page = $(this).attr("id");
+           e.preventDefault();
            load_data(page);
       });
  });

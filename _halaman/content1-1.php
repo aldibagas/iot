@@ -71,23 +71,24 @@
     </div>
     <!-- Blog End -->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script>
-    $(document).ready(function(){
-        load_data();
-        function load_data(page){
-            $.ajax({
-                    url:"_helpers/data.php",
-                    method:"POST",
-                    data:{page:page},
-                    success:function(data){
-                        $('#data').html(data);
-                    }
-            })
-        }
-        $(document).on('click', '.halaman', function(){
-            var page = $(this).attr("id");
-            load_data(page);
-        });
-    });
-    </script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+ $(document).ready(function(){
+      load_data();
+      function load_data(page){
+           $.ajax({
+                url:"_helpers/data.php",
+                method:"POST",
+                data:{page:page},
+                success:function(data){
+                     $('#data').html(data);
+                }
+           })
+      }
+      $(document).on('click', '.halaman', function(e){
+           var page = $(this).attr("id");
+           e.preventDefault();
+           load_data(page);
+      });
+ });
+ </script>

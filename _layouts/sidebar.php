@@ -6,14 +6,21 @@
                             <h3 class="mb-0">Project References</h3>
                         </div>
 
+                        <!-- pagination start -->
+                        <div id="data"></div>
+                        <!--pagination end -->
+
+                        <!--
                         <div id="carousel_projectRefrences" class="carousel slide" data-bs-ride="carousel">
                             <!-- Indicators/dots -->
+                            <!--
                             <div class="carousel-indicators" style="bottom: -50px">
                                 <button type="button" style="width: 30px;height: 30px;" data-bs-target="#carousel_projectRefrences" data-bs-slide-to="0" id="carousel_indicator_custom" class="active border rounded"></button>
                                 <button type="button" style="width: 30px;height: 30px;" data-bs-target="#carousel_projectRefrences" data-bs-slide-to="1" id="carousel_indicator_custom" class="border rounded"></button>
                             </div>
 
                             <!-- The slideshow/carousel -->
+                            <!--
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <div class="d-flex rounded overflow-hidden mb-3">
@@ -89,7 +96,31 @@
                                 <span class="carousel-control-next-icon"></span>
                             </button>
                         </div>
+
                     </div>
                     <!-- Recent Post End -->
+                    <!--
                 </div>
                 <!-- Sidebar End -->
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+ $(document).ready(function(){
+      load_data();
+      function load_data(page){
+           $.ajax({
+                url:"_helpers/data.php",
+                method:"POST",
+                data:{page:page},
+                success:function(data){
+                     $('#data').html(data);
+                }
+           })
+      }
+      $(document).on('click', '.halaman', function(e){
+           var page = $(this).attr("id");
+           e.preventDefault();
+           load_data(page);
+      });
+ });
+ </script>

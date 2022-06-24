@@ -41,9 +41,9 @@
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Graha Pena Building 14th floor R.1401, Surabaya, East Java, Indonesia, 60234</small>
-                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@example.com</small>
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>Graha Pena Building 14th floor R.1401, Surabaya, Indonesia, 60234</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+628111986758</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>customer@kkteknologi.com</small>
                 </div>
             </div>
             <div class="col-lg-4 text-center text-lg-end">
@@ -88,7 +88,7 @@
         <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="<?=assets()?>img/carousel-4.jpg" alt="Image">
+                    <img class="w-100" src="<?=assets()?>img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
                             <h5 class="text-white text-uppercase mb-3 animated slideInDown">PT. KRESNA KARYA TEKNOLOGI</h5>
@@ -117,6 +117,16 @@
                         </div>
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="<?=assets()?>img/carousel-4.jpg" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">PT. KRESNA KARYA TEKNOLOGI</h5>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Automation System Integrator</h1>
+                            <a href="<?=url('contact')?>" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
                 data-bs-slide="prev">
@@ -131,26 +141,6 @@
         </div>
     </div>
     <!-- Navbar & Carousel End -->
-
-
-    <!-- Full Screen Search Start -->
-    <div class="modal fade" id="searchModal" tabindex="-1">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
-                <div class="modal-header border-0">
-                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body d-flex align-items-center justify-content-center">
-                    <div class="input-group" style="max-width: 600px;">
-                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
-                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Full Screen Search End -->
-
 
     <!-- Facts Start -->
     <div class="container-fluid facts py-5 pt-lg-0">
@@ -194,7 +184,6 @@
     </div>
     <!-- Facts Start -->
 
-
     <!-- About Start -->
     <div id="about" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
@@ -221,7 +210,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="text-primary mb-0">+012 345 6789</h4>
+                            <h4 class="text-primary mb-0">+62 811 1986 758</h4>
                         </div>
                     </div>
                     <a href="<?=url('contact')?>" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Quote</a>
@@ -249,8 +238,10 @@
                         <div class="service-icon">
                             <i class="fa fa-tools text-white"></i>
                         </div>
-                        <h4 class="mb-3">Industrial Automation</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <h4 class="mb-3">Industrial Automation Solutions</h4>
+                        <p class="m-0">As an experienced company in the industrial Automation
+                            we are trying to provide added value that can increase productivity and efficiency
+                        </p>
                         <a class="btn btn-lg btn-primary rounded" href="<?=url('content1')?>">
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -261,8 +252,10 @@
                         <div class="service-icon">
                             <i class="fa fa-tools text-white"></i>
                         </div>
-                        <h4 class="mb-3">Building Automation</h4>
-                        <p class="m-0">Amet justo dolor lorem kasd amet magna sea stet eos vero lorem ipsum dolore sed</p>
+                        <h4 class="mb-3">Building Automation Solutions</h4>
+                        <p class="m-0">Our experience as a technology intergrator is not only applied in industry
+                            but can also applied in builing to provide comfort, safety and efficient use of power
+                        </p>
                         <a class="btn btn-lg btn-primary rounded" href="<?=url('content2')?>">
                             <i class="bi bi-arrow-right"></i>
                         </a>
@@ -271,8 +264,8 @@
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
                     <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
                         <h3 class="text-white mb-3">Call Us For Quote</h3>
-                        <p class="text-white mb-3">Clita ipsum magna kasd rebum at ipsum amet dolor justo dolor est magna stet eirmod</p>
-                        <h2 class="text-white mb-0">+012 345 6789</h2>
+                        <p class="text-white mb-3">If you have any questions about solutions for your automation problems, feel free to contact us</p>
+                        <h3 class="text-white mb-0">+62 811 1986 758</h2>
                     </div>
                 </div>
             </div>
@@ -290,46 +283,74 @@
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
                 <div class="testimonial-item bg-light my-4">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <img class="img-fluid rounded" src="<?=assets()?>img/transmart.jpg" style="width: 100px; height: 100px; object-fit: cover;" >
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">PTPN XI - PG Wonolangan</h4>
-                            <small class="text-uppercase">Mill Power Assist - 2022</small>
+                            <h4 class="text-primary mb-1">Transmart Mall</h4>
+                            <small class="text-uppercase">Sidoarjo - 2017</small>
                         </div>
                     </div>
                     <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        Chiller sequencing control to provide sufficient cooling capacity for efficient use of electrical energy
                     </div>
                 </div>
                 <div class="testimonial-item bg-light my-4">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <img class="img-fluid rounded" src="<?=assets()?>img/carstensz.jpg" style="width: 100px; height: 100px; object-fit: cover;" >
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">PTPN XI - PG Prajekan</h4>
-                            <small class="text-uppercase">Mill Power Assist - 2022</small>
+                            <h4 class="text-primary mb-1">Carstensz Residence</h4>
+                            <small class="text-uppercase">Tangerang - 2019</small>
                         </div>
                     </div>
                     <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        Chiller sequencing control to provide sufficient cooling capacity for efficient use of electrical energy
                     </div>
                 </div>
                 <div class="testimonial-item bg-light my-4">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                    <img class="img-fluid rounded" src="<?=assets()?>img/pullman.jpg" style="width: 100px; height: 100px; object-fit: cover;" >
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">PTPN XI - PG Prajekan</h4>
-                            <small class="text-uppercase">HGF Automation - 2022</small>
+                            <h4 class="text-primary mb-1">Pullman Beach Resort</h4>
+                            <small class="text-uppercase">Mandalika - 2021</small>
                         </div>
                     </div>
                     <div class="pt-4 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                        Chiller sequencing control and Building management System for efficient use of energy
                     </div>
                 </div>
                 <div class="testimonial-item bg-light my-4">
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <img class="img-fluid rounded" src="<?=assets()?>img/psmi.jpg" style="width: 100px; height: 100px; object-fit: cover;" >
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">PG PSMI</h4>
+                            <small class="text-uppercase">Lampung - 2022</small>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-5 px-5">
+                        Power assist system that helps optimize power loads on sugarcane milling machines
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <img class="img-fluid rounded" src="<?=assets()?>img/prajekan.jpg" style="width: 100px; height: 100px; object-fit: cover;" >
+                        <div class="ps-4">
+                            <h4 class="text-primary mb-1">PG Prajekan</h4>
+                            <small class="text-uppercase">Bondowoso - 2022</small>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-5 px-5">
+                        HGF machine automation based on washing sugar to increase productivity 
+                    </div>
+                </div>
+                <div class="testimonial-item bg-light my-4">
+                    <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
+                        <img class="img-fluid rounded" src="<?=assets()?>img/pgka.jpg" style="width: 100px; height: 100px; object-fit: cover;" >
                         <div class="ps-4">
                             <h4 class="text-primary mb-1">PG Kebon Agung</h4>
-                            <small class="text-uppercase">Mill Power Assist - 2022</small>
+                            <small class="text-uppercase">Malang - 2022</small>
                         </div>
                     </div>
-                    <div class="pt-10 pb-5 px-5">
-                        Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam
+                    <div class="pt-4 pb-5 px-5">
+                        Power assist system that helps optimize power loads on sugarcane milling machines
                     </div>
                 </div>
             </div>
@@ -352,7 +373,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="text-primary mb-0">+012 345 6789</h4>
+                            <h4 class="text-primary mb-0">+62 811 1986 758</h4>
                         </div>
                     </div>
                 </div>
@@ -363,7 +384,7 @@
                         </div>
                         <div class="ps-4">
                             <h5 class="mb-2">Email to get free quote</h5>
-                            <h4 class="text-primary mb-0">info@example.com</h4>
+                            <h4 class="text-primary mb-0">customer@kkteknologi.com</h4>
                         </div>
                     </div>
                 </div>
@@ -405,8 +426,8 @@
                     <div class="mapouter">
                         <div class="gmap_canvas">
                             <iframe src="https://maps.google.com/maps?q=graha%20pena&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" 
-                                id="gmap_canvas" frameborder="0" scrolling="no" style="width: 600px; height: 400px;"></iframe>
-                                <style>.mapouter{position:relative;text-align:right;height:400px;width:600px;}</style>
+                                id="gmap_canvas" frameborder="0" scrolling="no" style="width: 600px; height: 345px;"></iframe>
+                                <style>.mapouter{position:relative;text-align:right;height:345px;width:600px;}</style>
                         </div>
                     </div>
                 </div>
@@ -441,7 +462,7 @@
                 <div class="col-lg-4 col-md-6 footer-about">
                     <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
                         <a href="index.html" class="navbar-brand">
-                            <h1 class="m-0 text-white"><i class="fa fa-user-tie me-2"></i>KKT</h1>
+                            <h1 class="m-0 text-white">KKT</h1>
                         </a>
                         <p class="mt-3 mb-4">Lorem diam sit erat dolor elitr et, diam lorem justo amet clita stet eos sit. Elitr dolor duo lorem, elitr clita ipsum sea. Diam amet erat lorem stet eos. Diam amet et kasd eos duo.</p>
                     </div>
@@ -458,11 +479,11 @@
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-envelope-open text-primary me-2"></i>
-                                <p class="mb-0">info@example.com</p>
+                                <p class="mb-0">customer@kkteknologi.com</p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-telephone text-primary me-2"></i>
-                                <p class="mb-0">+012 345 67890</p>
+                                <p class="mb-0">+62 811 1986 758</p>
                             </div>
                             <div class="d-flex mt-4">
                                 <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
@@ -504,7 +525,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#home" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#home" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top scroll-to-section"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

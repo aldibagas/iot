@@ -23,6 +23,7 @@
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 
     <!-- Libraries Stylesheet -->
     <link href="<?=assets()?>lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -36,7 +37,8 @@
 </head>
 
 <body>
-    <!-- Topbar Start -->
+    <div id="home"></div>
+    <!-- Topbar Start 
     <div id="home" class="container-fluid bg-dark px-5 d-none d-lg-block">
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
@@ -57,14 +59,15 @@
             </div>
         </div>
     </div>
-    <!-- Topbar End -->
+     Topbar End -->
 
 
     <!-- Navbar & Carousel Start -->
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="<?=url('home')?>" class="navbar-brand p-0">
-                <h1 class="m-0">KKT</h1>
+            <link href="<?=assets()?>img/logo.ico" rel="icon">
+                <h1 class="m-0">KRESNA</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -91,9 +94,9 @@
                     <img class="w-100" src="<?=assets()?>img/carousel-1.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">PT. KRESNA KARYA TEKNOLOGI</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Automation System Integrator</h1>
-                            <a href="<?=url('contact')?>" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Contact Us</a>
+                            <h4 class="text-white text-uppercase mb-3 animated slideInDown">PT. KRESNA KARYA TEKNOLOGI</h4>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Technology Integrator</h1>
+                            <a href="#about" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Know Us Better</a>
                         </div>
                     </div>
                 </div>
@@ -101,9 +104,9 @@
                     <img class="w-100" src="<?=assets()?>img/carousel-2.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">PT. KRESNA KARYA TEKNOLOGI</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Automation System Integrator</h1>
-                            <a href="<?=url('contact')?>" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Contact Us</a>
+                            <h4 class="text-white text-uppercase mb-3 animated slideInDown">PT. KRESNA KARYA TEKNOLOGI</h4>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Technology Integrator</h1>
+                            <a href="#about" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Know Us Better</a>
                         </div>
                     </div>
                 </div>
@@ -111,9 +114,9 @@
                     <img class="w-100" src="<?=assets()?>img/carousel-3.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">PT. KRESNA KARYA TEKNOLOGI</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Automation System Integrator</h1>
-                            <a href="<?=url('contact')?>" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Contact Us</a>
+                            <h4 class="text-white text-uppercase mb-3 animated slideInDown">PT. KRESNA KARYA TEKNOLOGI</h4>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Technology Integrator</h1>
+                            <a href="#about" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Know Us Better</a>
                         </div>
                     </div>
                 </div>
@@ -121,9 +124,9 @@
                     <img class="w-100" src="<?=assets()?>img/carousel-4.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div class="p-3" style="max-width: 900px;">
-                            <h5 class="text-white text-uppercase mb-3 animated slideInDown">PT. KRESNA KARYA TEKNOLOGI</h5>
-                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Automation System Integrator</h1>
-                            <a href="<?=url('contact')?>" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Contact Us</a>
+                            <h4 class="text-white text-uppercase mb-3 animated slideInDown">PT. KRESNA KARYA TEKNOLOGI</h4>
+                            <h1 class="display-1 text-white mb-md-4 animated zoomIn">Technology Integrator</h1>
+                            <a href="#about" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Know Us Better</a>
                         </div>
                     </div>
                 </div>
@@ -142,7 +145,7 @@
     </div>
     <!-- Navbar & Carousel End -->
 
-    <!-- Facts Start -->
+    <!-- Facts Start 
     <div class="container-fluid facts py-5 pt-lg-0">
         <div class="container py-5 pt-lg-0">
             <div class="row gx-0">
@@ -152,7 +155,7 @@
                             <i class="fa fa-users text-primary"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="text-white mb-0">Clients</h5>
+                            <h4 class="text-white mb-0">Clients</h4>
                             <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>
                         </div>
                     </div>
@@ -163,7 +166,7 @@
                             <i class="fa fa-check text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="text-primary mb-0">Projects Done</h5>
+                            <h4 class="text-primary mb-0">Projects Done</h4>
                             <h1 class="mb-0" data-toggle="counter-up">12345</h1>
                         </div>
                     </div>
@@ -174,7 +177,7 @@
                             <i class="fa fa-award text-primary"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="text-white mb-0">Achievements</h5>
+                            <h4 class="text-white mb-0">Achievements</h4>
                             <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>
                         </div>
                     </div>
@@ -182,26 +185,26 @@
             </div>
         </div>
     </div>
-    <!-- Facts Start -->
+     Facts Start -->
 
-    <!-- About Start -->
+    <!-- About Start 
     <div id="about" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
-                        <h5 class="fw-bold text-primary text-uppercase">About Us</h5>
-                        <h1 class="mb-0">We are Automation System Integrator</h1>
+                        <h4 class="fw-bold text-primary text-uppercase">About Us</h4>
+                        <h1 class="mb-0">We are Technology Integrator</h1>
                     </div>
                     <p class="mb-4">We integrate knowledge and innovative technology, we take responsibility for effective and efficient world creation. We work with speed to build strong networking through remarkable achievements.</p>
                     <div class="row g-0 mb-3">
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Innovative Technology</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
+                            <h4 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Innovative Technology</h4>
+                            <h4 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h4>
                         </div>
                         <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>effective and efficient</h5>
-                            <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
+                            <h4 class="mb-3"><i class="fa fa-check text-primary me-3"></i>effective and efficient</h4>
+                            <h4 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h4>
                         </div>
                     </div>
                     <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
@@ -209,11 +212,11 @@
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="mb-2">Call to ask any question</h5>
+                            <h4 class="mb-2">Call to ask any question</h4>
                             <h4 class="text-primary mb-0">+62 811 1986 758</h4>
                         </div>
                     </div>
-                    <a href="<?=url('contact')?>" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Quote</a>
+                    <a href="#contact" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Quote</a>
                 </div>
                 <div class="col-lg-5" style="min-height: 500px;">
                     <div class="position-relative h-100">
@@ -223,20 +226,88 @@
             </div>
         </div>
     </div>
-    <!-- About End -->
+     About End -->
+
+    <!-- Features Start -->
+    <div id="about" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 800px;">
+                <h4 class="fw-bold text-primary text-uppercase">Why Us</h4>
+                <h1 class="mb-0">We Are Technology Integrator</h1>
+            </div>
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-lightbulb text-white"></i>
+                            </div>
+                            <h4>Knowledge</h4>
+                            <p class="mb-0">Always learning and improving knowledge to provide the best service</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="bi bi-person-heart text-white"></i>
+                            </div>
+                            <h4>Responsibility</h4>
+                            <p class="mb-0">Take responsibility for creating a better life for human kind</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-leaf text-white"></i>
+                            </div>
+                            <h4>Efficient</h4>
+                            <p class="mb-0">Participating for greener earth and optimal use of energy for future generations</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="<?=assets()?>img/about-1.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row g-5">
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="bi bi-lightning-fill text-white"></i>
+                            </div>
+                            <h4>Speed</h4>
+                            <p class="mb-0">Time is precious and speed is our concern</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa bi bi-link text-white"></i>
+                            </div>
+                            <h4>Networking</h4>
+                            <p class="mb-0">Wide relationships in order to provide mutual benefits</p>
+                        </div>
+                        <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
+                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                                <i class="fa fa-award text-white"></i>
+                            </div>
+                            <h4>Achievements</h4>
+                            <p class="mb-0">Remarkable achievement for our satisfaction and others</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Features Start -->
 
     <!-- Service Start -->
     <div id="services" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Our Services</h5>
-                <h1 class="mb-0">Custom Automation Solutions for Your Problems</h1>
+                <h4 class="fw-bold text-primary text-uppercase">Our Services</h4>
+                <h1 class="mb-0">Provide the suitable solution for your needs</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="fa fa-tools text-white"></i>
+                            <i class="fa fa-industry text-white"></i>
                         </div>
                         <h4 class="mb-3">Industrial Automation Solutions</h4>
                         <p class="m-0">As an experienced company in the industrial Automation
@@ -250,7 +321,7 @@
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.6s">
                     <div class="service-item bg-light rounded d-flex flex-column align-items-center justify-content-center text-center">
                         <div class="service-icon">
-                            <i class="fa fa-tools text-white"></i>
+                            <i class="fa fa-building text-white"></i>
                         </div>
                         <h4 class="mb-3">Building Automation Solutions</h4>
                         <p class="m-0">Our experience as a technology intergrator is not only applied in industry
@@ -277,7 +348,7 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Project References</h5>
+                <h4 class="fw-bold text-primary text-uppercase">Project References</h4>
                 <h1 class="mb-0">who has used our services</h1>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
@@ -362,40 +433,40 @@
     <div id="contact" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Contact Us</h5>
+                <h4 class="fw-bold text-primary text-uppercase">Contact Us</h4>
                 <h1 class="mb-0">If You Have Any Query, Feel Free To Contact Us</h1>
             </div>
             <div class="row g-5 mb-5">
-                <div class="col-lg-4">
+                <div class="col-lg">
                     <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
                         <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="mb-2">Call to ask any question</h5>
-                            <h4 class="text-primary mb-0">+62 811 1986 758</h4>
+                            <h4 class="mb-2">Feel free to ask</h4>
+                            <h5 class="text-primary mb-0">+628111986758</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg">
                     <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.4s">
                         <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
                             <i class="fa fa-envelope-open text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="mb-2">Email to get free quote</h5>
-                            <h4 class="text-primary mb-0">customer@kkteknologi.com</h4>
+                            <h4 class="mb-2">Email to get free quote</h4>
+                            <h5 class="text-primary mb-0">cs@kresnateknologi.com</h5>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg">
                     <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s">
                         <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
                             <i class="fa fa-map-marker-alt text-white"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="mb-2">Visit our office</h5>
-                            <h4 class="text-primary mb-0">Graha Pena 14th, SBY</h4>
+                            <h4 class="mb-2">Visit our office</h4>
+                            <h5 class="text-primary mb-0">Graha Pena 14th, SBY</h5>
                         </div>
                     </div>
                 </div>
@@ -479,7 +550,7 @@
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-envelope-open text-primary me-2"></i>
-                                <p class="mb-0">customer@kkteknologi.com</p>
+                                <p class="mb-0">cs@kresnateknologi.com</p>
                             </div>
                             <div class="d-flex mb-2">
                                 <i class="bi bi-telephone text-primary me-2"></i>
@@ -531,6 +602,7 @@
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/1c7de8299b.js" crossorigin="anonymous"></script>
     <script src="<?=assets()?>lib/wow/wow.min.js"></script>
     <script src="<?=assets()?>lib/easing/easing.min.js"></script>
     <script src="<?=assets()?>lib/waypoints/waypoints.min.js"></script>

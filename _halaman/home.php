@@ -145,75 +145,22 @@
     </div>
     <!-- Navbar & Carousel End -->
 
-    <!-- Facts Start 
-    <div class="container-fluid facts py-5 pt-lg-0">
-        <div class="container py-5 pt-lg-0">
-            <div class="row gx-0">
-                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.1s">
-                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
-                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
-                            <i class="fa fa-users text-primary"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h4 class="text-white mb-0">Clients</h4>
-                            <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.3s">
-                    <div class="bg-light shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
-                            <i class="fa fa-check text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h4 class="text-primary mb-0">Projects Done</h4>
-                            <h1 class="mb-0" data-toggle="counter-up">12345</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 wow zoomIn" data-wow-delay="0.6s">
-                    <div class="bg-primary shadow d-flex align-items-center justify-content-center p-4" style="height: 150px;">
-                        <div class="bg-white d-flex align-items-center justify-content-center rounded mb-2" style="width: 60px; height: 60px;">
-                            <i class="fa fa-award text-primary"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h4 class="text-white mb-0">Achievements</h4>
-                            <h1 class="text-white mb-0" data-toggle="counter-up">12345</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-     Facts Start -->
-
-    <!-- About Start 
-    <div id="about" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <!-- About Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-7">
                     <div class="section-title position-relative pb-3 mb-5">
                         <h4 class="fw-bold text-primary text-uppercase">About Us</h4>
-                        <h1 class="mb-0">We are Technology Integrator</h1>
                     </div>
-                    <p class="mb-4">We integrate knowledge and innovative technology, we take responsibility for effective and efficient world creation. We work with speed to build strong networking through remarkable achievements.</p>
-                    <div class="row g-0 mb-3">
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                            <h4 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Innovative Technology</h4>
-                            <h4 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h4>
-                        </div>
-                        <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                            <h4 class="mb-3"><i class="fa fa-check text-primary me-3"></i>effective and efficient</h4>
-                            <h4 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h4>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
-                            <i class="fa fa-phone-alt text-white"></i>
-                        </div>
-                        <div class="ps-4">
-                            <h4 class="mb-2">Call to ask any question</h4>
-                            <h4 class="text-primary mb-0">+62 811 1986 758</h4>
+                    <div class="row">
+                        <div class="col wow zoomIn" data-wow-delay="0.2s">
+                            <h5 class="mb-3 text-primary">VISION</h5>
+                            <p>To be global & trusted technology Integrator</p>
+                            <h5 class="mb-3 text-primary">MISSION</h5>
+                            <p>Integrating KNOWLEDGE and innovative technology RESPONSIBLY for EFFICIENT world creation</p>
+                            <h5 class="mb-3 text-primary">VALUE</h5>
+                            <p>SPEED work to build strong NETWORKING through remarkable ACHIEVEMENTS</p>
                         </div>
                     </div>
                     <a href="#contact" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Quote</a>
@@ -226,13 +173,13 @@
             </div>
         </div>
     </div>
-     About End -->
+    <!-- About End -->
 
     <!-- Features Start -->
     <div id="about" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 800px;">
-                <h4 class="fw-bold text-primary text-uppercase">Why Us</h4>
+                <h4 class="fw-bold text-primary text-uppercase">Why Choose Us</h4>
                 <h1 class="mb-0">We Are Technology Integrator</h1>
             </div>
             <div class="row g-5">
@@ -263,7 +210,7 @@
                 </div>
                 <div class="col-lg-4  wow zoomIn" data-wow-delay="0.9s" style="min-height: 350px;">
                     <div class="position-relative h-100">
-                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="<?=assets()?>img/about-1.jpg" style="object-fit: cover;">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.1s" src="<?=assets()?>img/about-3.jpg" style="object-fit: cover;">
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -301,7 +248,7 @@
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h4 class="fw-bold text-primary text-uppercase">Our Services</h4>
-                <h1 class="mb-0">Provide the suitable solution for your needs</h1>
+                <h1 class="mb-0">Provide The Suitable Solution for Your Needs</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -349,7 +296,7 @@
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
                 <h4 class="fw-bold text-primary text-uppercase">Project References</h4>
-                <h1 class="mb-0">who has used our services</h1>
+                <h1 class="mb-0">Who has Used Our Services</h1>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
                 <div class="testimonial-item bg-light my-4">

@@ -1,5 +1,5 @@
 ---
 deployment:
 tasks:
-- export DEPLOYPATH=/home/kret9518/public_html/kkt
+- export DEPLOYPATH=/home/kret9518/public_html/backup
 - /bin/cp -r * $DEPLOYPATH

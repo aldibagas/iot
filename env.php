@@ -21,5 +21,5 @@ $js='js/';
 $css='css/';
 
 //URI
-$setUri['base']='http://localhost:8080/iot/';
+$setUri['base']='http://localhost/kkt/';
 $setUri['assets']='_assets/';

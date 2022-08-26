@@ -26,7 +26,6 @@
     <?php include '_layouts/head.php'?>
     <body>
         <?php
-            include '_layouts/header.php';
             include '_layouts/navbar.php';
             echo $content;
             include '_layouts/footer.php';

@@ -100,7 +100,7 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-3 animated slideInDown">PT. INFORMASI OTOMASI TEKNOLOGI</h4>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Technology Integrator</h1>
-                            <a href="#about" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Know Us Better</a>
+                            <a href="#about" class="btn btn-danger py-md-3 px-md-5 me-3 animated slideInLeft">Know Us Better</a>
                         </div>
                     </div>
                 </div>
@@ -110,7 +110,7 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-3 animated slideInDown">PT. INFORMASI OTOMASI TEKNOLOGI</h4>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Technology Integrator</h1>
-                            <a href="#about" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Know Us Better</a>
+                            <a href="#about" class="btn btn-danger py-md-3 px-md-5 me-3 animated slideInLeft">Know Us Better</a>
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-3 animated slideInDown">PT. INFORMASI OTOMASI TEKNOLOGI</h4>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Technology Integrator</h1>
-                            <a href="#about" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Know Us Better</a>
+                            <a href="#about" class="btn btn-danger py-md-3 px-md-5 me-3 animated slideInLeft">Know Us Better</a>
                         </div>
                     </div>
                 </div>
@@ -130,7 +130,7 @@
                         <div class="p-3" style="max-width: 900px;">
                             <h4 class="text-white text-uppercase mb-3 animated slideInDown">PT. INFORMASI OTOMASI TEKNOLOGI</h4>
                             <h1 class="display-1 text-white mb-md-4 animated zoomIn">Technology Integrator</h1>
-                            <a href="#about" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Know Us Better</a>
+                            <a href="#about" class="btn btn-danger py-md-3 px-md-5 me-3 animated slideInLeft">Know Us Better</a>
                         </div>
                     </div>
                 </div>
@@ -155,25 +155,25 @@
             <div class="row g-5">
                 <div class="col-lg-6">
                     <div class="section-title position-relative pb-3 mb-5">
-                        <h4 class="fw-bold text-primary text-uppercase">About Us</h4>
+                        <h4 class="fw-bold text-danger text-uppercase">About Us</h4>
                     </div>
                     <div class="row g-2">
                         <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                            <div class="bg-danger rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-lightbulb text-white"></i>
                             </div>
                             <h4>Vision</h4>
                             <p class="mb-0">To be global & trusted technology integrator</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                            <div class="bg-danger rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="bi bi-flag-fill text-white"></i>
                             </div>
                             <h4>Mission</h4>
                             <p class="mb-0">Integrating KNOWLEDGE and innovative technology RESPONSIBLY for EFFICIENT world creation</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                            <div class="bg-danger rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="bi bi-clipboard-check-fill text-white"></i>
                             </div>
                             <h4>Value</h4>
@@ -195,28 +195,28 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 800px;">
-                <h4 class="fw-bold text-primary text-uppercase">Why Choose Us</h4>
+                <h4 class="fw-bold text-danger text-uppercase">Why Choose Us</h4>
                 <h1 class="mb-0">We Are Technology Integrator</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4">
                     <div class="row g-5">
                         <div class="col-12 wow zoomIn" data-wow-delay="0.2s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                            <div class="bg-danger rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-lightbulb text-white"></i>
                             </div>
                             <h4>Knowledge</h4>
                             <p class="mb-0">Always learning and improving knowledge to provide the best service</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                            <div class="bg-danger rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="bi bi-person-heart text-white"></i>
                             </div>
                             <h4>Responsibility</h4>
                             <p class="mb-0">Take responsibility for creating a better life for human kind</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.6s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                            <div class="bg-danger rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-leaf text-white"></i>
                             </div>
                             <h4>Efficient</h4>
@@ -232,21 +232,21 @@
                 <div class="col-lg-4">
                     <div class="row g-5">
                         <div class="col-12 wow zoomIn" data-wow-delay="0.4s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                            <div class="bg-danger rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="bi bi-lightning-fill text-white"></i>
                             </div>
                             <h4>Speed</h4>
                             <p class="mb-0">Time is precious and speed is our concern</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                            <div class="bg-danger rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa bi bi-link text-white"></i>
                             </div>
                             <h4>Networking</h4>
                             <p class="mb-0">Wide relationships in order to provide mutual benefits</p>
                         </div>
                         <div class="col-12 wow zoomIn" data-wow-delay="0.8s">
-                            <div class="bg-primary rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
+                            <div class="bg-danger rounded d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px;">
                                 <i class="fa fa-award text-white"></i>
                             </div>
                             <h4>Achievements</h4>
@@ -263,7 +263,7 @@
     <div id="services" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h4 class="fw-bold text-primary text-uppercase">Our Services</h4>
+                <h4 class="fw-bold text-danger text-uppercase">Our Services</h4>
                 <h1 class="mb-0">Provide The Suitable Solution for Your Needs</h1>
             </div>
             <div class="row g-5">
@@ -276,7 +276,7 @@
                         <p class="m-0">As an experienced company in the industrial Automation
                             we are trying to provide added value that can increase productivity and efficiency
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="<?=url('content1')?>">
+                        <a class="btn btn-lg btn-danger rounded" href="<?=url('content1')?>">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
@@ -290,13 +290,13 @@
                         <p class="m-0">Our experience as a technology intergrator is not only applied in industry
                             but can also applied in builing to provide comfort, safety and efficient use of power
                         </p>
-                        <a class="btn btn-lg btn-primary rounded" href="<?=url('content2')?>">
+                        <a class="btn btn-lg btn-danger rounded" href="<?=url('content2')?>">
                             <i class="bi bi-arrow-right"></i>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.9s">
-                    <div class="position-relative bg-primary rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
+                    <div class="position-relative bg-danger rounded h-100 d-flex flex-column align-items-center justify-content-center text-center p-5">
                         <h3 class="text-white mb-3">Call Us For Quote</h3>
                         <p class="text-white mb-3">If you have any questions about solutions for your automation problems, feel free to contact us</p>
                         <h3 class="text-white mb-0">+62 811 1986 758</h2>
@@ -311,7 +311,7 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
-                <h4 class="fw-bold text-primary text-uppercase">Project References</h4>
+                <h4 class="fw-bold text-danger text-uppercase">Project References</h4>
                 <h1 class="mb-0">Who has Used Our Services</h1>
             </div>
             <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.6s">
@@ -319,7 +319,7 @@
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                         <img class="img-fluid rounded" src="<?=assets()?>img/transmart.jpg" style="width: 100px; height: 100px; object-fit: cover;" >
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">Transmart Mall</h4>
+                            <h4 class="text-danger mb-1">Transmart Mall</h4>
                             <small class="text-uppercase">Sidoarjo - 2017</small>
                         </div>
                     </div>
@@ -331,7 +331,7 @@
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                         <img class="img-fluid rounded" src="<?=assets()?>img/carstensz.jpg" style="width: 100px; height: 100px; object-fit: cover;" >
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">Carstensz Residence</h4>
+                            <h4 class="text-danger mb-1">Carstensz Residence</h4>
                             <small class="text-uppercase">Tangerang - 2019</small>
                         </div>
                     </div>
@@ -343,7 +343,7 @@
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                     <img class="img-fluid rounded" src="<?=assets()?>img/pullman.jpg" style="width: 100px; height: 100px; object-fit: cover;" >
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">Pullman Beach Resort</h4>
+                            <h4 class="text-danger mb-1">Pullman Beach Resort</h4>
                             <small class="text-uppercase">Mandalika - 2021</small>
                         </div>
                     </div>
@@ -355,7 +355,7 @@
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                         <img class="img-fluid rounded" src="<?=assets()?>img/psmi.jpg" style="width: 100px; height: 100px; object-fit: cover;" >
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">PG PSMI</h4>
+                            <h4 class="text-danger mb-1">PG PSMI</h4>
                             <small class="text-uppercase">Lampung - 2022</small>
                         </div>
                     </div>
@@ -367,7 +367,7 @@
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                         <img class="img-fluid rounded" src="<?=assets()?>img/prajekan.jpg" style="width: 100px; height: 100px; object-fit: cover;" >
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">PG Prajekan</h4>
+                            <h4 class="text-danger mb-1">PG Prajekan</h4>
                             <small class="text-uppercase">Bondowoso - 2022</small>
                         </div>
                     </div>
@@ -379,7 +379,7 @@
                     <div class="d-flex align-items-center border-bottom pt-5 pb-4 px-5">
                         <img class="img-fluid rounded" src="<?=assets()?>img/pgka.jpg" style="width: 100px; height: 100px; object-fit: cover;" >
                         <div class="ps-4">
-                            <h4 class="text-primary mb-1">PG Kebon Agung</h4>
+                            <h4 class="text-danger mb-1">PG Kebon Agung</h4>
                             <small class="text-uppercase">Malang - 2022</small>
                         </div>
                     </div>
@@ -396,40 +396,40 @@
     <div id="contact" class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
-                <h4 class="fw-bold text-primary text-uppercase">Contact Us</h4>
+                <h4 class="fw-bold text-danger text-uppercase">Contact Us</h4>
                 <h1 class="mb-0">If You Have Any Query, Feel Free To Contact Us</h1>
             </div>
             <div class="row g-5 mb-5">
                 <div class="col-lg">
                     <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.1s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                        <div class="bg-danger d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
                             <i class="fa fa-phone-alt text-white"></i>
                         </div>
                         <div class="ps-4">
                             <h4 class="mb-2">Feel free to ask</h4>
-                            <h5 class="text-primary mb-0">+628111986758</h5>
+                            <h5 class="text-danger mb-0">+628111986758</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg">
                     <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.4s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                        <div class="bg-danger d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
                             <i class="fa fa-envelope-open text-white"></i>
                         </div>
                         <div class="ps-4">
                             <h4 class="mb-2">Email to get free quote</h4>
-                            <h5 class="text-primary mb-0">cs@informasiotomasi.com</h5>
+                            <h5 class="text-danger mb-0">cs@informasiotomasi.com</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg">
                     <div class="d-flex align-items-center wow fadeIn" data-wow-delay="0.8s">
-                        <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                        <div class="bg-danger d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
                             <i class="fa fa-map-marker-alt text-white"></i>
                         </div>
                         <div class="ps-4">
                             <h4 class="mb-2">Visit our office</h4>
-                            <h5 class="text-primary mb-0">Graha Pena 14th, SBY</h5>
+                            <h5 class="text-danger mb-0">Graha Pena 14th, SBY</h5>
                         </div>
                     </div>
                 </div>
@@ -451,7 +451,7 @@
                                 <textarea class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message"></textarea>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                <button class="btn btn-danger w-100 py-3" type="submit">Send Message</button>
                             </div>
                         </div>
                     </form>
@@ -503,7 +503,7 @@
         <div class="container">
             <div class="row gx-5">
                 <div class="col-lg-4 col-md-6 footer-about">
-                    <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-primary p-4">
+                    <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-danger p-4">
                         <a href="index.html" class="navbar-brand">
                             <svg height="45" viewBox="0 0 1300 400" xmlns="http://www.w3.org/2000/svg">
                             <path id="logo" style="fill:#fff;stroke-width:.791765" d="M32.066 194.774v-66.508h65.717l-.018 32.66-.018 32.66-5.667 5.939c-16.424 17.209-59.525 61.757-59.751 61.757-.144 0-.263-29.928-.263-66.508z"/>
@@ -520,22 +520,22 @@
                                 <h3 class="text-light mb-0">Get In Touch</h3>
                             </div>
                             <div class="d-flex mb-2">
-                                <i class="bi bi-geo-alt text-primary me-2"></i>
+                                <i class="bi bi-geo-alt text-danger me-2"></i>
                                 <p class="mb-0">Graha Pena Building 14th floor R.1401, Surabaya, East Java, Indonesia, 60234</p>
                             </div>
                             <div class="d-flex mb-2">
-                                <i class="bi bi-envelope-open text-primary me-2"></i>
+                                <i class="bi bi-envelope-open text-danger me-2"></i>
                                 <p class="mb-0">cs@informasiotomasi.com</p>
                             </div>
                             <div class="d-flex mb-2">
-                                <i class="bi bi-telephone text-primary me-2"></i>
+                                <i class="bi bi-telephone text-danger me-2"></i>
                                 <p class="mb-0">+62 811 1986 758</p>
                             </div>
                             <div class="d-flex mt-4">
-                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
-                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
-                                <a class="btn btn-primary btn-square me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
-                                <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram fw-normal"></i></a>
+                                <a class="btn btn-danger btn-square me-2" href="#"><i class="fab fa-twitter fw-normal"></i></a>
+                                <a class="btn btn-danger btn-square me-2" href="#"><i class="fab fa-facebook-f fw-normal"></i></a>
+                                <a class="btn btn-danger btn-square me-2" href="#"><i class="fab fa-linkedin-in fw-normal"></i></a>
+                                <a class="btn btn-danger btn-square" href="#"><i class="fab fa-instagram fw-normal"></i></a>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-12 pt-0 pt-lg-5 mb-5">
@@ -543,10 +543,10 @@
                                 <h3 class="text-light mb-0">Quick Links</h3>
                             </div>
                             <div class="link-animated d-flex flex-column justify-content-start">
-                                <a class="text-light mb-2" href="#home"><i class="bi bi-arrow-right text-primary me-2"></i>Home</a>
-                                <a class="text-light mb-2" href="#about"><i class="bi bi-arrow-right text-primary me-2"></i>About Us</a>
-                                <a class="text-light mb-2" href="#services"><i class="bi bi-arrow-right text-primary me-2"></i>Our Services</a>
-                                <a class="text-light" href="#contact"><i class="bi bi-arrow-right text-primary me-2"></i>Contact Us</a>
+                                <a class="text-light mb-2" href="#home"><i class="bi bi-arrow-right text-danger me-2"></i>Home</a>
+                                <a class="text-light mb-2" href="#about"><i class="bi bi-arrow-right text-danger me-2"></i>About Us</a>
+                                <a class="text-light mb-2" href="#services"><i class="bi bi-arrow-right text-danger me-2"></i>Our Services</a>
+                                <a class="text-light" href="#contact"><i class="bi bi-arrow-right text-danger me-2"></i>Contact Us</a>
                             </div>
                         </div>
                     </div>
@@ -571,7 +571,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#home" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top scroll-to-section"><i class="bi bi-arrow-up"></i></a>
+    <a href="#home" class="btn btn-lg btn-danger btn-lg-square rounded back-to-top scroll-to-section"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->

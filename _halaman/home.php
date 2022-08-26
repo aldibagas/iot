@@ -66,9 +66,7 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="<?=url('home')?>" class="navbar-brand p-0">
-                <div class="row">
-                    <H2>IOT</H2>
-                </div>
+                <h1 class="m-0">IOT</h1>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -502,7 +500,7 @@
                 <div class="col-lg-4 col-md-6 footer-about">
                     <div class="d-flex flex-column align-items-center justify-content-center text-center h-100 bg-danger p-4">
                         <a href="index.html" class="navbar-brand">
-                            <H2>IOT</H2>
+                            <h1 class="m-0 text-white">IOT</h1>
                         </a>
                         <p class="mt-3 mb-4">We are Technology Integrator. We Integrating Knowledge and innovative technology Responsibly for Efficient world creation. Speed work to build strong Networking through remarkable Achievements</p>
                     </div>
